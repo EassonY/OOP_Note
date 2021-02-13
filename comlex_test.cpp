@@ -6,7 +6,7 @@ using namespace std;
 ostream&
 operator << (ostream& os, const complex& x)
 {
-    return os << '(' << real (x) ',' << imag (x) << ')';
+    return os << '(' << real (x) << ',' << imag (x) << ')';
 }
 
 int main()
