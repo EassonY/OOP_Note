@@ -1,5 +1,4 @@
-# Some OOP Notes
-# Learned from Houjie.
+# Some OOP Notes. Learned from Houjie.
 
 ## complex 小结  (具体代码见complex.h)
 * 防卫式声明
