@@ -1,6 +1,5 @@
-Some OOP Notes
-
-Learned from Houjie.
+# Some OOP Notes
+# Learned from Houjie.
 
 ## complex 小结  (具体代码见complex.h)
 * 防卫式声明
@@ -26,6 +25,5 @@ Learned from Houjie.
     * class with pointer members, 必须有 copy ctor 和 copy operator=
     * 浅拷贝会 内存泄漏(memory leak)
     * 拷贝赋值函数，首先要检查 自我赋值
-
 * 函数符重载
 
