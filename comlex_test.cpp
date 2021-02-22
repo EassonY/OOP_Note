@@ -28,7 +28,7 @@ int main()
     cout << endl;
 
 
-    // ==   != 测试
+    // ==   != 
 
     if (c1 == c2) cout << "c1 == c2" << endl;
     if (c1 != c2) cout << "c1 != c2" << endl;
