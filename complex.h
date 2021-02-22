@@ -235,8 +235,30 @@ operator != (double x, const complex& y)
 }
 
 
+#include <cmath>
 
 
+// 极坐标
+inline complex
+polar (double r, double t)
+{
+	return complex(r * cos(t), r * sin(t));
+}
+
+// 共轭复数
+inline complex
+conj (const complex& x)
+{
+	return complex(real(x), -imag(x));
+}
 
 
-#endif
+// 范数
+inline double
+norm (const complex& x)
+{
+	return real(x) * real(x) + imag(x) * imag(x) ;
+}
+
+
+#endif   // __OOP_COMPLEX__
