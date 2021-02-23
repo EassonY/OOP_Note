@@ -28,7 +28,11 @@ int main()
     cout << endl;
 
 
-    // ==   != 
+    // 正负号重载
+    cout << + c1 << endl;
+    cout << - c1 << endl;
+
+    // ==   != 重载
 
     if (c1 == c2) cout << "c1 == c2" << endl;
     if (c1 != c2) cout << "c1 != c2" << endl;
